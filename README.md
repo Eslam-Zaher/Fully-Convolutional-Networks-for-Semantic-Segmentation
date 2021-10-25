@@ -10,7 +10,7 @@ Image semantic segmentation is the task of grouping pixels that belong to the sa
 # Networks
 Fully Convolutional Networks are encoder-decoder based architectures in which an encoder network performs subregion classification over the shallow-level feature maps. The decoder architecture, based on upsampling/deconvolutional layers, performs pixel-wise dense predictions. Results are enhanced in FCN-8s by fusing the outputs from shallower layers (rich with location information) with the ones from deeper layers to produce more enhanced and boundary-preserving predictions. The following triplet shows an image, its FCN-32s, and FCN-8s (boosted with skip connections) respectively.
 
-![alt text](https://github.com/Eslam-Zaher/Fully-Convolutional-Networks-for-Semantic-Segmentation/blob/main/examples/example_result.PNG)
+![alt text](https://github.com/Eslam-Zaher/Fully-Convolutional-Networks-for-Semantic-Segmentation/blob/main/examples/resut.PNG)
 
 
 # Data
