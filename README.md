@@ -19,7 +19,7 @@ Fully Convolutional Networks are encoder-decoder based architectures in which an
 # Drawbacks and Future Work
 The relative small margin (~2-3%) in mean Intersection Over Unioun (IOU) between our models and the original ones by [Shelmar et al.](https://arxiv.org/abs/1605.06211) is believed to be due to the differences in framework, optimization, and dataset augmentation. Our implementation is Keras-based while the original networks were built and trained using Caffe. The authors benefited from their augmented dataset, GPU resources, and the wrapping around network layers to assign different learning rates for different layers, resulting in better fine tuning, but at the cost of training time (3 days). Future work will investigate data augmentation, utilization of GPU-resources, and other optimizers. 
 
-* The following repos were helpful for the prepartion of this projects
+* The following repos were helpful for the prepartion of this projects:
 - https://github.com/shelhamer/fcn.berkeleyvision.org
 - https://github.com/fmahoudeau/FCN-Segmentation-TensorFlow
 - https://github.com/kevinddchen/Keras-FCN
